@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    h1{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        text-align: center;
+        font-size: 40px;
+    }
+</style>
+
+<body>
+    <h1>Transforms</h1>
+    <main>
+        <section class="rotateSection">
+            <h1 class="heading">Rotate</h1>
+            <div class="boxes">
+                <div class="box rotate" id="box-1">Rotate X</div>
+                <div class="box rotate" id="box-2">Rotate Y</div>
+                <div class="box rotate" id="box-3">Rotate / Rotate Z</div>
+                <div class="box rotate" id="box-4">Rotate 3D</div>
+            </div>
+        </section>
+        <section class="scaleSection">
+            <h1 class="heading">Scale</h1>
+            <div class="boxes">
+                <div class="box scale" id="box-5">Scale X</div>
+                <div class="box scale" id="box-6">Scale Y</div>
+                <div class="box scale" id="box-7">Scale X & Y</div>
+                <div class="box scale" id="box-8">Scale X & -Y</div>
+            </div>
+        </section>
+        <section class="skewSection">
+            <h1 class="heading">Skew</h1>
+            <div class="boxes">
+                <div class="box skew" id="box-9">Skew X</div>
+                <div class="box skew" id="box-10">Skew Y</div>
+                <div class="box skew" id="box-11">Skew X & Y</div>
+                <div class="box skew" id="box-12">Skew -X & Y</div>
+            </div>
+        </section>
+        <section class="translateSection">
+            <h1 class="heading">Translate</h1>
+            <div class="boxes">
+                <div class="box translate" id="box-13">Translate X</div>
+                <div class="box translate" id="box-14">Translate Y</div>
+                <div class="box translate" id="box-15">Translate X & -Y</div>
+                <div class="box translate" id="box-16">Translate 3D</div>
+            </div>
+        </section>
+        <section class="matrixSection">
+            <h1 class="heading">Matrix </h1>
+            <div class="boxes">
+                <div class="box matrix" id="box-17">Matrix</div>
+                <div class="box matrix" id="box-18">Matrix 3D</div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
