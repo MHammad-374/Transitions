@@ -7,5 +7,4 @@ Almost covers all transitionns that can be done through CSS.
 • Translate  
 • Matrix  
   
-## Link:  
-       https://transition-io.netlify.app/
+## Link:  https://transition-io.netlify.app/
